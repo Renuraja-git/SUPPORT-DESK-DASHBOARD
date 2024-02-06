@@ -12,8 +12,8 @@ function Home(){
                 <li><Link to="/login">Logout</Link></li>
             </ul>
            
-           <div className="bg-slate-900 text-white w-full"> <p>Aleardy have an Account?</p><Link to="/login" className="text-white font-extrabold">LOGIN</Link></div>
-            <div className="bg-slate-900 text-white w-full"><p>Create new Accout? </p> <Link to="/register" className="text-white font-extrabold">REGISTER</Link></div>
+           <div className="bg-slate-900 text-white w-full"> <p>Already have an Account?</p><Link to="/login" className="text-white font-extrabold">LOGIN</Link></div>
+            <div className="bg-slate-900 text-white w-full"><p>Create new Account? </p> <Link to="/register" className="text-white font-extrabold">REGISTER</Link></div>
 
         </div>
     );
